@@ -1,0 +1,122 @@
+
+body {
+   margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+   width: 100%;
+}
+
+.logo {
+   height: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+   width: 15vw;
+   height: 10vh;
+   margin: 0.9em;
+}
+
+.sotto-logo {
+   background-color: rgba(255, 255, 0, 0.11);
+   text-align: center;
+   padding: 1px;
+   height: 50%;
+   border-top: 1px solid rgb(219, 189, 15);
+}
+
+.sotto-logo h4 {
+   margin: 1.0em;
+   font-weight: normal;
+}
+
+.sotto-logo span {
+   text-transform: uppercase ;
+   font-weight: bold;
+}
+
+.main {
+   text-align: center;
+   margin: 0 20%;
+}
+
+.main h1 {
+   margin: 1.6em 6em;
+   text-align: center;
+}
+
+.primo-paragrafo {
+   text-align: center;
+   margin: 0 8% 1% 8%;
+}
+
+.primo-paragrafo p {
+   margin:16px 40px 16px 40px ; ;
+}
+
+.picture {
+   text-align: center;
+   height: 80%;
+   width: 100%;
+}
+
+.picture video{
+   border-radius: 35px;
+}
+
+.description-img {
+   text-align: center;
+   margin: 12px;
+   color: rgba(128, 128, 128, 0.575);
+}
+
+#focaccia {
+   border-radius: 35px;
+   box-shadow: 5px 5px 8px black;
+}
+
+.small-section  p {
+   text-align: left;
+   border-left: 1px solid rgb(240, 96, 13);
+   padding-left: 0.6em;
+}
+
+#one {
+   text-transform: uppercase;
+   text-decoration: underline;
+   color: rgb(240, 96, 13);
+}
+
+#two {
+   color: rgb(25, 182, 142);
+   text-decoration: underline;
+}
+
+.aside {
+   margin: 0 20%;
+   text-align: left;
+}
+
+#line {
+   color: aquamarine;
+}
+
+.sezione-lista{
+   line-height: 1.8;
+}
+
+.paragrafo-aside2 {
+   margin: 2% 5%;
+   line-height: auto;
+}
+
+.footer {
+   margin: 0 20%;
+}
+
+#link-footer:link {
+   color: rgb(0, 128, 90);
+}
