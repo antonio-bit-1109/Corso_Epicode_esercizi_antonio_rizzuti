@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+     <!-- <link rel="stylesheet" href="assets/css/reset.css">  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <header class="generale">
+
+      <picture class="picture">
+        <img src="assets/img/logo.svg" alt="logo epicode">
+      </picture>
+
+      <section class="section"> <!--FASTIDIO NON VEDO ALLINEATE LE FRECCETTE -->
+        <h3 class="stile">EPICODE - IL BLOG DEI DEVELOPERS</h3>
+        <div>
+          <p class="flex-container stile"> 	&rarr; HOME &larr; <p>
+        </div>
+        <div>
+          <p class="flex-container stile">&rarr; ARTICOLI &larr; <p>
+        </div>
+        <div>
+          <p class="flex-container stile">&rarr; LAVORA CON NOI &larr; <p>
+        </div>
+      </section>
+    </header>
+
+    <main class="generale">
+      <h2 id="eccezione-align"> come creare un template per i post </h2>
+      <p> <i class="fas fa-pen-square"></i> di mario Rossi - <i class="fas fa-clock"></i> pubblicato il 25-10-2020</p>
+
+      <div>
+        <p class="align">La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="comune">parti comuni</span> da applicare a tutte le pagine </p>
+      </div>
+
+      <article>
+        <ul><p class="align">Le varie aree saranno quindi suddivise in:</p>
+          <li class="align">contenuti di intestazione del tag <span class="tag-lista">&#60;header&#62;</span></li>
+          <li class="align">contenuti centrali variabili del tag <span class="tag-lista">&#60;main&#62;</span> (corpo principale) </li>
+          <li class="align">contenuti di fine pagina comuni, da inserire nel tag <span class="tag-lista">&#60;footer&#62;</span> </li>
+        </ul>
+      </article>
+
+      <article>
+        <p class="align">Formattazione del codice <br>
+        il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span class="comune">selezionare con i CSS</span>. Perciò i passi saranno:</p>
+
+        <ol class="align-center">
+          <li class="align">Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+          <li class="align">Scrivere l'HTML dai tag estrni a quelli interni e dall'alto verso il basso</li>
+          <li class="align">applicare gli stili CSS</li>
+        </ol>
+
+        <p class="align">L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+      </article>
+
+      <!-- non viene allineata al centro  -->
+      <table id="tabella">
+        <h4 id="distanza">diffusione dei CSS</h4>
+        <thead>
+          <th>Anno</th>
+          <th>% di utilizzo</th>
+          <th>Supporto Browsers</th>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr class="row-color">
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr class="row-color">
+            <td>2008</td>
+            <td>80%</td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>      
+      </table>
+
+      <div class="align">
+        <p>
+          Un test di validazione potrà essere fatto tramite il <a href="https://www.treccani.it/vocabolario/pagina/">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+        </p>
+      </div>
+     
+      <div> <!-- non si vede -->
+        <video id="video" poster="assets/img/cane.jpg" controls src="assets/video/Fik-Shun _ FRONTROW _ World of Dance Bay Area 2015 #WODBAY2015.mp4"></video>
+      </div>
+
+      <form id="form" action="#">
+        <h2>NOVIT&#192;</h2>
+        <p>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter: </p>
+        <input type="text" placeholder="inserisci l'email">
+        <button>Iscriviti!</button>
+      </form>
+     
+      <aside>
+        <h2> ARTICOLI CORRELATI </h2>
+
+        <section class="color-aside">
+          <p><a  href="#">validare il codice html</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <div class="container-calendario">
+            <p><i class="fas fa-calendar-alt"></i> data: 18-9-2020</p>
+          </div>
+        </section>
+
+        <section class="color-aside">
+          <p><a  href="#">validare il codice html</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <div class="container-calendario">
+            <p><i class="fas fa-calendar-alt"></i> data: 18-9-2020</p>
+          </div>
+        </section>
+
+        <section class="color-aside">
+          <p><a  href="#">validare il codice html</a></p>
+          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <div class="container-calendario">
+            <p><i class="fas fa-calendar-alt"></i> data: 18-9-2020</p>
+          </div>
+        </section>
+
+      </aside>
+    </main>
+
+    <footer class="generale colore-footer">
+      <h5>Blog Epicode &#169; 2021 </h5>
+      <p id="color-footer-par">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt odit, corrupti repellat autem beatae culpa et dolor quidem maiores a mollitia sit similique eum esse placeat saepe <a href="#">info@epicode.school</a>
+      </p>
+    </footer>
+
+
+
+  
+  </body>
+
+</html>
