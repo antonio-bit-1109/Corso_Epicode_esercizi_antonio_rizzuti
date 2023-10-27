@@ -1,0 +1,194 @@
+/* Your styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+/* impostazioni generali */
+* {box-sizing: border-box;}
+
+
+.bordo-scheda {
+   border: #dee1e3 1px solid ;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.2rem ;
+   color: #393d41;
+   line-height: 1.65;
+   margin: 0;
+}
+
+
+/* header */
+
+header .logo {
+   background-color: black;
+   margin: 0;
+   padding: 2em 3em;
+   text-align: left ;
+}
+
+header .logo img {
+   width: 15%;
+}
+
+header h1 {
+   color: #25a2c3;
+   font-size: 3em;
+   margin: 0 1em 0.3em 1em ;
+   padding-top: 2.5em;
+   line-height: 1;
+}
+
+/*  non si carica sfondo div  */
+
+header .sotto-logo {
+   background-image: url('../images/banner.jpg');
+   background-position: center center;
+   background-size: cover;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 1.5;
+   text-align: center;
+}
+
+header .sotto-logo p {
+   margin-bottom: 1.5em;
+   margin: 1em 20%;
+   line-height: 2em;
+   font-weight: normal;
+}
+
+header div button {
+   background-color:  #f04c2f ;
+   color: white;
+   padding: 0.8em 1.3em;
+   font-size: 0.9em;
+   font-weight: bold;
+   border: none;
+   border-radius: 10px;
+   text-transform: uppercase;
+   margin: 1em 2em 8em 2em;
+   cursor: pointer;
+}
+
+/*  main */
+
+main {
+   margin-top: 2em;
+   text-align: center;
+}
+
+main article div h3 {
+   font-weight: bold;
+   color: #25a2c3;
+   margin-top: 1.3em;
+}
+
+main article {
+   margin: 8em 0 10em 8em;
+}
+
+.align {
+   text-align: left;
+}
+
+main article p {
+ margin: 0.1em 4em 1.2em 4em;  
+}
+
+main .notebook-img img {
+   float: left;
+   border-radius: 50%;
+   margin:0 4em 0em 0;
+}
+
+/* section */
+
+section {
+   background-color: #f04c2f;
+   color: white;
+   padding: 3em 1.5em; 
+}
+
+section h2 {
+   font-weight: bold;
+   padding: 25px;
+   font-size: 2em;
+}
+
+section p {
+   margin: 1.5em;
+   font-style: italic;
+}
+
+section h3 {
+   color: white;
+   font-size: 1.5em;
+   font-weight: normal;
+}
+
+/* aside */
+
+aside {
+   display: flex; /* <= cambia display flex :( */
+}
+
+.correlato {
+   margin: 4em 2em;
+   width: 33.3%;
+}
+
+.correlato div {
+   padding: 0.5em;
+}
+
+.correlato img {
+   height: auto;
+   width: 100%;
+}
+
+.correlato div h3 {
+   font-weight: bold;
+   color: #25a2c3;
+   margin-bottom: 1.3em;
+}
+
+/* footer */
+
+footer {
+   background-color: #25a2c3;
+   padding: 2% 4% 4% 4%;
+   text-align: center;
+   color: #c8e7f0
+}
+
+footer a {
+   color: #c8e7f0;
+}
+
+footer h3 {
+   font-size: 3rem;
+   font-weight: bold;
+   margin-bottom: 0.3em;
+   color: white;
+}
+
+footer ul li {
+   list-style-type: none;
+   text-align: center;
+}
+
+footer ul {
+   margin-bottom: 2em;
+}
+
+hr {
+   margin-bottom: 2em;
+   width: 18%;
+}
+
+
+
